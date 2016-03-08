@@ -1,0 +1,391 @@
+/*No tocar este codigo*/ 
+.sidebar-closed > #sidebar > ul {
+    display: none;
+}
+
+.sidebar-closed #main-content {
+    margin-left: 0px;
+}
+
+.sidebar-closed #sidebar {
+    margin-left: -180px;
+}
+
+/*Escribe aqui tu codigo */
+
+.row{
+	margin: 0;
+}
+
+#container{
+	display: flex;
+	flex-direction: row;		
+	flex-wrap: wrap;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+header{
+	background-color: #424A5D;
+	width: 100%;
+	padding: 1% 0;
+	display: flex;
+	/*justify-content: space-between;*/
+	align-items:center;
+	flex-direction: row;	
+	flex-wrap: wrap;
+}
+
+.fa-bars{
+	margin: 0 14px;
+}
+
+.fa-bars,
+.logo{
+	color: white;
+	font-size: 16px;
+}
+
+.top-menu{
+	flex-grow:1;
+	font-size: 11px;
+    padding: 0 0.7%;
+}
+
+.top-menu>.nav > li > a {
+    padding: 5px 10px;
+    background: #9C4C9D;
+    color: white;
+    border-radius: 3px;
+}
+
+.top-menu>.nav > li > a:hover{
+	background: #E16DAA;
+}
+
+header>a:hover{
+	color: #E16DAA;
+}
+
+.sub-menu:hover{
+	background: #E16DAA;
+	cursor: pointer;
+}
+
+.sub-menu:visited{
+	background: #9C4C9D;
+	cursor: pointer;
+}
+
+aside ul{
+	list-style: none;
+	margin-top: 0;
+}
+
+.sidebar-menu{
+	padding-left: 9px;
+    padding-right: 5%;
+}
+
+.sub-menu{
+	padding: 5% 0;
+}
+
+.sub-menu>a>i{
+	padding: 0 3%;
+	color: white;
+}
+
+.sidebar-menu>p{
+	margin: 10px 0;
+}
+
+.sub-menu>a>span{
+	color: white;
+}
+
+aside{
+	flex: 0 0 200px;
+	border-top: 1px solid black;	
+	background-color: #424A5D;
+   	color: white;
+}
+
+
+
+/*======================= DASHBOARD.HTML ==========================*/
+
+#main-content{
+	flex: 1;
+	background: #F2F2F2;
+}
+
+.ds,
+.main-chart{
+	color: #989898;
+}
+
+.pt-25{
+	padding-top: 25px;
+}
+
+.ds{
+	background: white;
+}
+
+.box0{
+	text-align: center;
+	color: #989898;
+}
+
+.box1{
+	border-bottom: 1px solid #989898;
+	padding-top: 13px;
+}
+
+.box0>p{
+	color: transparent;
+	font-size: 9.5px;
+	padding-top:10px;
+}
+
+.box1>span{
+	font-size: 43px;
+}
+
+.box0:hover p {
+    color: #FFA88A;
+}
+
+.box0:hover .box1 {
+    border-bottom: 1px solid transparent;
+}
+
+.box0:hover {
+    background: white;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.page-header {
+    margin-top: 14px;
+    padding-left: 14px;
+}
+
+.page-header>h1{
+	margin: 0;
+	font-size: 30px;
+}
+
+.main-video h4{
+	margin-top: 0;
+}
+
+.divider{
+	border-bottom: 1px solid rgba(158, 158, 158, 0.28);
+}
+
+.showback {
+    background: white;
+    padding-top: 17px;
+	padding-bottom: 13px;
+    margin-bottom: 13px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.showback h4{
+	padding-left: 14px;
+}
+
+.ds>h3{
+	font-size: 13px;
+    background: #9C4C9D;
+    text-align: center;
+    padding: 16px 0;
+    color: white;
+}
+
+.desc>.thumb>span{
+	background: #68DFF0;
+}
+
+.ds .desc {
+    position: relative;
+    padding-left: 55px;
+    padding-bottom: 11px;
+    padding-top: 12px;
+    font-size: 11px;
+    border-bottom: 1px solid gray;
+}
+
+.thumb{
+	position: absolute;
+	top: 14px;
+	left: 15px;
+}
+
+.ds>div:nth-child(6),
+.ds>div:last-child{
+	border-bottom: none;
+}
+
+.ds>div:nth-child(5){
+	padding-bottom: 17px;
+	padding-top: 17px;
+}
+
+.ds>div:nth-child(6)+h3{
+	margin-top: 0;
+}
+
+/*===================== BUTTONS.THML==============================*/
+
+#main-content{
+	color: gray;
+}
+
+.showback h4+button{
+    margin-left: 13px;
+}
+
+.showback>div:nth-child(2)>button:first-child{
+	margin-left: 13px;
+}
+
+.showback>p>button:first-child{
+	margin-left: 13px;
+}
+
+.showback .btn-block{
+	margin-left: 13px;
+}
+
+.showback>div:nth-child(2)>div:first-child>button:first-child{
+	margin-left: 13px;
+}
+
+.btn-block {
+    width: 95%;
+}
+
+.showback div:nth-child(2)>div:nth-child(3)>button{
+	width: 94%;
+}
+
+/*===================== PROGESS BARS.THML==============================*/
+
+.showback .progress{
+	width: 96%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.showback>p:nth-child(2)+a,
+.showback>p:nth-child(2){
+	margin-left: 13px;
+}
+
+.showback .alert{
+	width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.showback h4+span{
+	margin-left: 13px;
+}
+
+/*===================== FORMS .THML==============================*/
+
+.wrapper>h3{
+	padding-left: 13px;
+}
+
+.form-panel{
+	background: white;
+    padding: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.form-horizontal .control-label {
+ 	text-align: left;
+ 	padding-left: 0px;
+}
+
+.form-horizontal .form-group {
+	margin-right: 0px; 
+    margin-left: 0px; 
+}	
+
+.style-form>.form-group {
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 17px;
+}    
+
+.style-form>.form-group:nth-child(3)>div>input{
+	border-radius: 20px;
+}
+
+.wrapper>div:last-child{
+	margin-bottom: 30px;
+}
+
+/*===================== DATA TABLES .THML==============================*/
+
+.content-panel{
+	background: white;
+    padding: 13px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+/*===================== GALLERY.THML==============================*/
+
+.wrapper h3{
+	padding-left: 16px;
+}
+
+.wrapper .mt{
+	margin-top: 23px;
+}
+
+/*===================== LOGIN .THML==============================*/
+
+body{
+	background: #F2F2F2;
+}
+
+form {
+    background: white;
+    width: 351px;
+    margin: 6% auto;
+        /*margin: 62px auto;*/
+}
+
+form h2{
+	background: #68DFF0;
+    color: white;
+    text-align: center;
+    padding: 27px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.login-wrap{
+	padding: 21px;
+}
+
+.registration{
+	text-align: center;
+    margin-top: 23px;
+}
+
+
+
+
+
+
+
